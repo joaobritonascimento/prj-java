@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
-@RequestMapping(path = "/api/usuario")
+@RequestMapping(path="/api/usuario")
 public class UsuarioController {
 
     // @ResponseBody significa que a string retornada é a resposta, não um nome de exibição
