@@ -55,3 +55,4 @@ public class UsuarioController {
         uRepository.deleteById(id);
         return "Ok ao apagar!";
     }
+}
