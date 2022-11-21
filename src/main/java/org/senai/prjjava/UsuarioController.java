@@ -2,7 +2,8 @@ package org.senai.prjjava;
 
 import java.util.Optional;
 
-
+import org.senai.prjjava.Usuario;
+import org.senai.prjjava.UsuarioRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.CrossOrigin;
