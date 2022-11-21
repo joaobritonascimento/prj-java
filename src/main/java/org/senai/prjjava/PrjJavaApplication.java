@@ -18,7 +18,7 @@ public class PrjJavaApplication {
 	@GetMapping("/hello")  //
 	//Se o "name" estiver vazio a pagina voltará a palavra padrão "world"
 	public String hello(@RequestParam(value = "name", defaultValue = "World") String name) {
-	return String.format("Hello %s!", name);
+	return String.format("Hellooooo %s!", name);
 	}
 
 }
