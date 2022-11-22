@@ -1,9 +1,9 @@
-package org.senai.prjjava;
+package org.senai.prjjava.controller;
 
 import java.util.Optional;
 
-import org.senai.prjjava.Usuario;
-import org.senai.prjjava.UsuarioRepository;
+import org.senai.prjjava.entity.Usuario;
+import org.senai.prjjava.repository.UsuarioRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.CrossOrigin;
